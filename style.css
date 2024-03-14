@@ -2,6 +2,15 @@ body {
   font: 16px/1.5 sans-serif;
 }
 
+h5 {
+    position: absolute;
+    left: calc(50% - 381.97px / 2);
+    top: 70px;
+    display: inline-block;
+
+}
+
+
 .modal {
   width: 50vw;
   height: 40vh;
@@ -9,7 +18,33 @@ body {
   background-color: #b4eafb;
   border-radius: 10px;
   font-size: 30px;
+  position: relative;
+  left: 200px;
 }
+
+.boxik {
+  width: 200px;
+  height: 200px;
+  border: solid pink;
+  background-color: pink;
+  position: fixed;
+  right: 10px;
+}
+
+.boxik h6 {
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  font-size: 13px;
+}
+
+.boxik p {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}
+
 
 button {
   width: 80px;
@@ -20,11 +55,17 @@ button {
   color: black;
   width: 30px;
   border-radius: 3px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .ok {
   background-color: #28a745;
   color: white;
+  position: absolute;
+  left: calc(50% - 80px / 2);
+  top: calc(90% - 25px / 2)
 }
 
 /* sem přijdou tvoje styly */
